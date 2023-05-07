@@ -1,24 +1,18 @@
 /*
- * I2C_Interface.h
+ * I2C_interface.h
  *
- * Created: 8/5/2022 10:35:22 AM
- *  Author: Osama
+ * Created: 4/28/2022 11:27:55 PM
+ *  Author: Osama Mahmoud
  */ 
 
 
 #ifndef I2C_INTERFACE_H_
 #define I2C_INTERFACE_H_
 
-#include "MemMap.h"
-#include "StdTypes.h"
-#include "Utils.h"
 
 /*******************************************************************************
  *                      Preprocessor Macros                                    *
  *******************************************************************************/
-
-#define WRITEMODE       (0x00)
-#define READMODE        (0x01)
 
 /* I2C Status Bits in the TWSR Register */
 #define I2C_START         0x08 /* start has been sent */
@@ -59,13 +53,9 @@ typedef struct
 /*******************************************************************************
  *                      Functions Prototypes                                   *
  *******************************************************************************/
-void I2C_init(I2C_ConfigType * Config_Ptr)
-void I2C_Send_StartCond(void);
-void I2C_Send_StopCond(void);
-u8 I2C_getStatus(void);
-void I2C_wirteData(u8 data);
-u8 I2C_RedDataWithACK(void);
-u8 I2C_ReadDataWithNACK(void);
+void I2C_init(I2C_ConfigType * Config_Ptr);
+void I2C_writeByte(u8 SlaveAddress , u8 InternalRegisterAddress , u8 Data);
+u8 I2C_ReadByte(u8 SlaveAddress , u8 InternalRegisterAddress);
 
 
 #endif /* I2C_INTERFACE_H_ */
