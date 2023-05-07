@@ -17,3 +17,12 @@ u16 LM35_GetTemp(void)
 	
 	return Temp;
 }
+
+u8 POT_GetPercentage(void)
+{
+	u16 adc_val;
+	adc_val = ADC_Read(POT_CHANNEL);
+	
+	u8 Resistance = ((u32)adc_val * 100)/1023;
+	return Resistance;
+}
