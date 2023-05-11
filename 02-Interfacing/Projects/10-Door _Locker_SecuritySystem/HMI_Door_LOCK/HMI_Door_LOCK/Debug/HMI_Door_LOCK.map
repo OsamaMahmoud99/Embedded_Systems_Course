@@ -1,0 +1,823 @@
+Archive member included to satisfy reference by file (symbol)
+
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o (exit)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              APP/HMI_Door_Lock_program.o (__do_copy_data)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              APP/HMI_Door_Lock_program.o (__do_clear_bss)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              HAL/LCD/LCD_program.o (__umulhisi3)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+                              HAL/LCD/LCD_program.o (__umoddi3)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+                              f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o) (__udivmod64)
+f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+                              HAL/LCD/LCD_program.o (__cmpdi2_s8)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_command           0x1               APP/HMI_Door_Lock_program.o
+g_inputPassword     0x5               APP/HMI_Door_Lock_program.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .bss           0x00000000        0x0 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .text          0x00000000        0x0 APP/HMI_Door_Lock_program.o
+ .data          0x00000000        0x0 APP/HMI_Door_Lock_program.o
+ .bss           0x00000000        0x0 APP/HMI_Door_Lock_program.o
+ .text          0x00000000        0x0 HAL/KEYPAD/KEYPAD_program.o
+ .data          0x00000000        0x0 HAL/KEYPAD/KEYPAD_program.o
+ .bss           0x00000000        0x0 HAL/KEYPAD/KEYPAD_program.o
+ .text          0x00000000        0x0 HAL/LCD/LCD_program.o
+ .data          0x00000000        0x0 HAL/LCD/LCD_program.o
+ .bss           0x00000000        0x0 HAL/LCD/LCD_program.o
+ .text.LCD_WriteNumber
+                0x00000000      0x128 HAL/LCD/LCD_program.o
+ .text.LCD_WriteNumber3
+                0x00000000       0xe0 HAL/LCD/LCD_program.o
+ .text.LCD_WriteNumber4
+                0x00000000      0x142 HAL/LCD/LCD_program.o
+ .text.Create_Character
+                0x00000000       0x36 HAL/LCD/LCD_program.o
+ .text.lcd_out  0x00000000       0x16 HAL/LCD/LCD_program.o
+ .rodata.str1.1
+                0x00000000        0x2 HAL/LCD/LCD_program.o
+ .text.convert_data
+                0x00000000       0x6c HAL/LCD/LCD_program.o
+ .bss.data.1900
+                0x00000000       0x11 HAL/LCD/LCD_program.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 MCAL/DIO/DIO_config.o
+ .data          0x00000000        0x0 MCAL/DIO/DIO_config.o
+ .bss           0x00000000        0x0 MCAL/DIO/DIO_config.o
+ .text          0x00000000        0x0 MCAL/DIO/DIO_program.o
+ .data          0x00000000        0x0 MCAL/DIO/DIO_program.o
+ .bss           0x00000000        0x0 MCAL/DIO/DIO_program.o
+ .text.DIO_WritePort
+                0x00000000       0x20 MCAL/DIO/DIO_program.o
+ .text.DIO_WriteBitsInPort
+                0x00000000       0x60 MCAL/DIO/DIO_program.o
+ .text.DIO_ReadPort
+                0x00000000       0x24 MCAL/DIO/DIO_program.o
+ .text.DIO_TogglePin
+                0x00000000       0x82 MCAL/DIO/DIO_program.o
+ .text.DIO_higher_nibble_Value
+                0x00000000       0x58 MCAL/DIO/DIO_program.o
+ .text.DIO_lower_nibble_value
+                0x00000000       0x40 MCAL/DIO/DIO_program.o
+ .text.DIO_get_lower_nibble
+                0x00000000       0x2c MCAL/DIO/DIO_program.o
+ .text.DIO_get_higher_nibble
+                0x00000000       0x2c MCAL/DIO/DIO_program.o
+ .text.DIO_setpinvalue
+                0x00000000       0xea MCAL/DIO/DIO_program.o
+ .text          0x00000000        0x0 MCAL/Timer/TIMER_program.o
+ .data          0x00000000        0x0 MCAL/Timer/TIMER_program.o
+ .bss           0x00000000        0x0 MCAL/Timer/TIMER_program.o
+ .text          0x00000000        0x0 MCAL/UART/UART_program.o
+ .data          0x00000000        0x0 MCAL/UART/UART_program.o
+ .bss           0x00000000        0x0 MCAL/UART/UART_program.o
+ .text.UART_RX_InterruptEnable
+                0x00000000        0x8 MCAL/UART/UART_program.o
+ .text.UART_RX_InterruptDisable
+                0x00000000        0x8 MCAL/UART/UART_program.o
+ .text.UART_TX_InterruptEnable
+                0x00000000        0x8 MCAL/UART/UART_program.o
+ .text.UART_TX_InterruptDisable
+                0x00000000        0x8 MCAL/UART/UART_program.o
+ .text.UART_RX_SetCallBack
+                0x00000000        0xa MCAL/UART/UART_program.o
+ .text.UART_TX_SetCallBack
+                0x00000000        0xa MCAL/UART/UART_program.o
+ .text.UART_SendByteNoBlock
+                0x00000000        0x4 MCAL/UART/UART_program.o
+ .text.UART_ReceiveByteNoBlock
+                0x00000000        0x4 MCAL/UART/UART_program.o
+ .text.UART_Receive_NoBlock
+                0x00000000       0x12 MCAL/UART/UART_program.o
+ .rodata.BaudRateArray
+                0x00000000       0x48 MCAL/UART/UART_program.o
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x1e f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.div
+                0x00000000       0x1c f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.div
+                0x00000000       0xa2 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc   0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmod64.o)
+ .text          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .data          0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .bss           0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc   0x00000000       0x18 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_cmpdi2_s8.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800060         0x00000800         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000002         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+LOAD APP/HMI_Door_Lock_program.o
+LOAD HAL/KEYPAD/KEYPAD_program.o
+LOAD HAL/LCD/LCD_program.o
+LOAD main.o
+LOAD MCAL/DIO/DIO_config.o
+LOAD MCAL/DIO/DIO_program.o
+LOAD MCAL/Timer/TIMER_program.o
+LOAD MCAL/UART/UART_program.o
+START GROUP
+LOAD f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5\libatmega32.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1100
+ *(.vectors)
+ .vectors       0x00000000       0x54 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_2
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.HMI_TimerCallBackProcessing
+                0x00000092        0xc APP/HMI_Door_Lock_program.o
+                0x00000092                HMI_TimerCallBackProcessing
+ .text.HMI_mainOptions
+                0x0000009e       0x1e APP/HMI_Door_Lock_program.o
+ .text.HMI_startTimer
+                0x000000bc       0x4a APP/HMI_Door_Lock_program.o
+ .text.HMI_openingDoor
+                0x00000106       0x58 APP/HMI_Door_Lock_program.o
+ .text.HMI_wrongPassword
+                0x0000015e       0x5c APP/HMI_Door_Lock_program.o
+ .text.HMI_getPassword
+                0x000001ba       0x52 APP/HMI_Door_Lock_program.o
+ .text.HMI_promptPassword
+                0x0000020c       0x1e APP/HMI_Door_Lock_program.o
+ .text.HMI_sendPassword
+                0x0000022a       0x32 APP/HMI_Door_Lock_program.o
+ .text.HMI_sendCommand
+                0x0000025c       0x24 APP/HMI_Door_Lock_program.o
+ .text.HMI_receiveCommand
+                0x00000280       0x22 APP/HMI_Door_Lock_program.o
+ .text.HMI_newPassword
+                0x000002a2       0xae APP/HMI_Door_Lock_program.o
+ .text.HMI_InitSystem
+                0x00000350       0x4a APP/HMI_Door_Lock_program.o
+                0x00000350                HMI_InitSystem
+ .text.HMI_Processing_UpdataSystem
+                0x0000039a       0x7e APP/HMI_Door_Lock_program.o
+                0x0000039a                HMI_Processing_UpdataSystem
+ .text.KEYPAD_voidInit
+                0x00000418       0x52 HAL/KEYPAD/KEYPAD_program.o
+                0x00000418                KEYPAD_voidInit
+ .text.KEYPAD_u8GetChar
+                0x0000046a      0x25c HAL/KEYPAD/KEYPAD_program.o
+                0x0000046a                KEYPAD_u8GetChar
+ .text.KEYPAD_u8GetPressed
+                0x000006c6        0xa HAL/KEYPAD/KEYPAD_program.o
+                0x000006c6                KEYPAD_u8GetPressed
+ .text.LCD_WriteCommand
+                0x000006d0       0xc8 HAL/LCD/LCD_program.o
+ .text.LCD_WriteData
+                0x00000798       0xc8 HAL/LCD/LCD_program.o
+ .text.LCD_Init
+                0x00000860       0x62 HAL/LCD/LCD_program.o
+                0x00000860                LCD_Init
+ .text.LCD_WriteChar
+                0x000008c2        0x6 HAL/LCD/LCD_program.o
+                0x000008c2                LCD_WriteChar
+ .text.LCD_WriteSentence
+                0x000008c8       0x26 HAL/LCD/LCD_program.o
+                0x000008c8                LCD_WriteSentence
+ .text.LCD_GoTo
+                0x000008ee       0x24 HAL/LCD/LCD_program.o
+                0x000008ee                LCD_GoTo
+ .text.LCD_Clear
+                0x00000912        0x8 HAL/LCD/LCD_program.o
+                0x00000912                LCD_Clear
+ .text.main     0x0000091a        0xa main.o
+                0x0000091a                main
+ .text.DIO_Init
+                0x00000924      0x1e2 MCAL/DIO/DIO_program.o
+                0x00000924                DIO_Init
+ .text.DIO_WritePin
+                0x00000b06      0x104 MCAL/DIO/DIO_program.o
+                0x00000b06                DIO_WritePin
+ .text.DIO_ReadPin
+                0x00000c0a       0x66 MCAL/DIO/DIO_program.o
+                0x00000c0a                DIO_ReadPin
+ .text.__vector_11
+                0x00000c70       0x52 MCAL/Timer/TIMER_program.o
+                0x00000c70                __vector_11
+ .text.__vector_10
+                0x00000cc2       0x52 MCAL/Timer/TIMER_program.o
+                0x00000cc2                __vector_10
+ .text.__vector_9
+                0x00000d14       0x52 MCAL/Timer/TIMER_program.o
+                0x00000d14                __vector_9
+ .text.__vector_7
+                0x00000d66       0x52 MCAL/Timer/TIMER_program.o
+                0x00000d66                __vector_7
+ .text.__vector_5
+                0x00000db8       0x52 MCAL/Timer/TIMER_program.o
+                0x00000db8                __vector_5
+ .text.__vector_4
+                0x00000e0a       0x52 MCAL/Timer/TIMER_program.o
+                0x00000e0a                __vector_4
+ .text.Timer_init
+                0x00000e5c      0x132 MCAL/Timer/TIMER_program.o
+                0x00000e5c                Timer_init
+ .text.Timer_setCallBack
+                0x00000f8e       0x2a MCAL/Timer/TIMER_program.o
+                0x00000f8e                Timer_setCallBack
+ .text.Timer_DeInit
+                0x00000fb8       0x6c MCAL/Timer/TIMER_program.o
+                0x00000fb8                Timer_DeInit
+ .text.UART_Init
+                0x00001024       0x24 MCAL/UART/UART_program.o
+                0x00001024                UART_Init
+ .text.__vector_13
+                0x00001048       0x52 MCAL/UART/UART_program.o
+                0x00001048                __vector_13
+ .text.__vector_15
+                0x0000109a       0x52 MCAL/UART/UART_program.o
+                0x0000109a                __vector_15
+ .text.UART_SendByte
+                0x000010ec        0x8 MCAL/UART/UART_program.o
+                0x000010ec                UART_SendByte
+ .text.UART_ReceiveByte
+                0x000010f4        0x8 MCAL/UART/UART_program.o
+                0x000010f4                UART_ReceiveByte
+                0x000010fc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000010fc        0x0 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000010fc                _exit
+                0x000010fc                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000010fc        0x4 f:/programs2/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001100                _etext = .
+
+.data           0x00800060      0x104 load address 0x00001100
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.Keypad_Col
+                0x00800060        0x4 HAL/KEYPAD/KEYPAD_program.o
+                0x00800060                Keypad_Col
+ .data.Keypad_Row
+                0x00800064        0x4 HAL/KEYPAD/KEYPAD_program.o
+                0x00800064                Keypad_Row
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800068        0xb APP/HMI_Door_Lock_program.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800073       0xc0 APP/HMI_Door_Lock_program.o
+                                 0xcf (size before relaxing)
+ .rodata.keypadchars
+                0x00800133       0x10 HAL/KEYPAD/KEYPAD_program.o
+ .rodata.PinsStatus
+                0x00800143       0x20 MCAL/DIO/DIO_config.o
+                0x00800143                PinsStatus
+ *(.gnu.linkonce.r*)
+                0x00800164                . = ALIGN (0x2)
+ *fill*         0x00800163        0x1 
+                0x00800164                _edata = .
+                0x00800164                PROVIDE (__data_end, .)
+
+.bss            0x00800164       0x13
+                0x00800164                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.g_passwordMistakes
+                0x00800164        0x1 APP/HMI_Door_Lock_program.o
+                0x00800164                g_passwordMistakes
+ .bss.g_tick    0x00800165        0x1 APP/HMI_Door_Lock_program.o
+                0x00800165                g_tick
+ .bss.g_matchStatus
+                0x00800166        0x1 APP/HMI_Door_Lock_program.o
+                0x00800166                g_matchStatus
+ .bss.g_Timer2_callBackPtr
+                0x00800167        0x2 MCAL/Timer/TIMER_program.o
+ .bss.g_Timer1_callBackPtr
+                0x00800169        0x2 MCAL/Timer/TIMER_program.o
+ .bss.g_Timer0_callBackPtr
+                0x0080016b        0x2 MCAL/Timer/TIMER_program.o
+ .bss.UART_TX_Fptr
+                0x0080016d        0x2 MCAL/UART/UART_program.o
+ .bss.UART_RX_Fptr
+                0x0080016f        0x2 MCAL/UART/UART_program.o
+ *(COMMON)
+ COMMON         0x00800171        0x6 APP/HMI_Door_Lock_program.o
+                0x00800171                g_command
+                0x00800172                g_inputPassword
+                0x00800177                PROVIDE (__bss_end, .)
+                0x00001100                __data_load_start = LOADADDR (.data)
+                0x00001204                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800177        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800177                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 APP/HMI_Door_Lock_program.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 HAL/KEYPAD/KEYPAD_program.o
+ .comment       0x00000030       0x31 HAL/LCD/LCD_program.o
+ .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 MCAL/DIO/DIO_config.o
+ .comment       0x00000030       0x31 MCAL/DIO/DIO_program.o
+ .comment       0x00000030       0x31 MCAL/Timer/TIMER_program.o
+ .comment       0x00000030       0x31 MCAL/UART/UART_program.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 APP/HMI_Door_Lock_program.o
+ .debug_aranges
+                0x00000080       0x30 HAL/KEYPAD/KEYPAD_program.o
+ .debug_aranges
+                0x000000b0       0x80 HAL/LCD/LCD_program.o
+ .debug_aranges
+                0x00000130       0x20 main.o
+ .debug_aranges
+                0x00000150       0x18 MCAL/DIO/DIO_config.o
+ .debug_aranges
+                0x00000168       0x78 MCAL/DIO/DIO_program.o
+ .debug_aranges
+                0x000001e0       0x60 MCAL/Timer/TIMER_program.o
+ .debug_aranges
+                0x00000240       0x88 MCAL/UART/UART_program.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2d9a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_info    0x000004e6      0xc60 APP/HMI_Door_Lock_program.o
+ .debug_info    0x00001146      0x40d HAL/KEYPAD/KEYPAD_program.o
+ .debug_info    0x00001553      0xbe1 HAL/LCD/LCD_program.o
+ .debug_info    0x00002134       0x7d main.o
+ .debug_info    0x000021b1      0x155 MCAL/DIO/DIO_config.o
+ .debug_info    0x00002306      0x514 MCAL/DIO/DIO_program.o
+ .debug_info    0x0000281a      0x2c2 MCAL/Timer/TIMER_program.o
+ .debug_info    0x00002adc      0x2be MCAL/UART/UART_program.o
+
+.debug_abbrev   0x00000000      0xf43
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_abbrev  0x000004a3      0x26e APP/HMI_Door_Lock_program.o
+ .debug_abbrev  0x00000711      0x1b9 HAL/KEYPAD/KEYPAD_program.o
+ .debug_abbrev  0x000008ca      0x207 HAL/LCD/LCD_program.o
+ .debug_abbrev  0x00000ad1       0x5d main.o
+ .debug_abbrev  0x00000b2e       0x6a MCAL/DIO/DIO_config.o
+ .debug_abbrev  0x00000b98      0x179 MCAL/DIO/DIO_program.o
+ .debug_abbrev  0x00000d11      0x10e MCAL/Timer/TIMER_program.o
+ .debug_abbrev  0x00000e1f      0x124 MCAL/UART/UART_program.o
+
+.debug_line     0x00000000     0x191f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x116 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_line    0x00000116      0x5c2 APP/HMI_Door_Lock_program.o
+ .debug_line    0x000006d8      0x340 HAL/KEYPAD/KEYPAD_program.o
+ .debug_line    0x00000a18      0x4a4 HAL/LCD/LCD_program.o
+ .debug_line    0x00000ebc       0x69 main.o
+ .debug_line    0x00000f25       0x46 MCAL/DIO/DIO_config.o
+ .debug_line    0x00000f6b      0x4f8 MCAL/DIO/DIO_program.o
+ .debug_line    0x00001463      0x2b8 MCAL/Timer/TIMER_program.o
+ .debug_line    0x0000171b      0x204 MCAL/UART/UART_program.o
+
+.debug_frame    0x00000000      0x7fc
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x120 APP/HMI_Door_Lock_program.o
+ .debug_frame   0x00000120       0x74 HAL/KEYPAD/KEYPAD_program.o
+ .debug_frame   0x00000194      0x198 HAL/LCD/LCD_program.o
+ .debug_frame   0x0000032c       0x24 main.o
+ .debug_frame   0x00000350       0xd4 MCAL/DIO/DIO_program.o
+ .debug_frame   0x00000424      0x254 MCAL/Timer/TIMER_program.o
+ .debug_frame   0x00000678      0x184 MCAL/UART/UART_program.o
+
+.debug_str      0x00000000      0xc5b
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 F:/Programs2/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_str     0x00000196      0x5fb APP/HMI_Door_Lock_program.o
+                                0x62f (size before relaxing)
+ .debug_str     0x00000791       0x70 HAL/KEYPAD/KEYPAD_program.o
+                                0x365 (size before relaxing)
+ .debug_str     0x00000801       0xc7 HAL/LCD/LCD_program.o
+                                0x404 (size before relaxing)
+ .debug_str     0x000008c8       0x11 main.o
+                                0x16a (size before relaxing)
+ .debug_str     0x000008d9       0x49 MCAL/DIO/DIO_config.o
+                                0x259 (size before relaxing)
+ .debug_str     0x00000922      0x128 MCAL/DIO/DIO_program.o
+                                0x410 (size before relaxing)
+ .debug_str     0x00000a4a       0xbf MCAL/Timer/TIMER_program.o
+                                0x3ab (size before relaxing)
+ .debug_str     0x00000b09      0x152 MCAL/UART/UART_program.o
+                                0x32e (size before relaxing)
+
+.debug_loc      0x00000000     0x2329
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x3af APP/HMI_Door_Lock_program.o
+ .debug_loc     0x000003af      0x16f HAL/KEYPAD/KEYPAD_program.o
+ .debug_loc     0x0000051e      0xa81 HAL/LCD/LCD_program.o
+ .debug_loc     0x00000f9f      0xbf8 MCAL/DIO/DIO_program.o
+ .debug_loc     0x00001b97      0x53d MCAL/Timer/TIMER_program.o
+ .debug_loc     0x000020d4      0x255 MCAL/UART/UART_program.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x240
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x70 APP/HMI_Door_Lock_program.o
+ .debug_ranges  0x00000070       0x20 HAL/KEYPAD/KEYPAD_program.o
+ .debug_ranges  0x00000090       0x70 HAL/LCD/LCD_program.o
+ .debug_ranges  0x00000100       0x10 main.o
+ .debug_ranges  0x00000110       0x68 MCAL/DIO/DIO_program.o
+ .debug_ranges  0x00000178       0x50 MCAL/Timer/TIMER_program.o
+ .debug_ranges  0x000001c8       0x78 MCAL/UART/UART_program.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(HMI_Door_LOCK.elf elf32-avr)
+LOAD linker stubs
