@@ -1,0 +1,1 @@
+HAL/LCD_OS.d HAL/LCD_OS.o: ../HAL/LCD_OS.c
