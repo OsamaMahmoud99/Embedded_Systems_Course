@@ -1,0 +1,625 @@
+Archive member included because of file (symbol)
+
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./Timer_Service.o (__mulsi3)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              ./SSD.o (__udivmodqi4)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ./Timer_Service.o (__udivmodhi4)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./Timer_Service.o (__udivmodsi4)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./DIO_Lcfg.o (__do_copy_data)
+f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./LED.o (__do_clear_bss)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./DIO_Lcfg.o
+LOAD ./DIO_Program.o
+LOAD ./LED.o
+LOAD ./SSD.o
+LOAD ./STTS_program.o
+LOAD ./TIME.o
+LOAD ./TIMER_Program.o
+LOAD ./Timer_Service.o
+LOAD ./main.o
+LOAD f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x232c
+ *(.vectors)
+ .vectors       0x00000000       0x54 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_3
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_14
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./DIO_Lcfg.o
+ .text          0x00000092        0x0 ./DIO_Program.o
+ .text          0x00000092        0x0 ./LED.o
+ .text          0x00000092        0x0 ./SSD.o
+ .text          0x00000092        0x0 ./STTS_program.o
+ .text          0x00000092        0x0 ./TIME.o
+ .text          0x00000092        0x0 ./TIMER_Program.o
+ .text          0x00000092        0x0 ./Timer_Service.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DIO_InitPin
+                0x00000092      0x4e0 ./DIO_Program.o
+ .text.DIO_Init
+                0x00000572       0x38 ./DIO_Program.o
+                0x00000572                DIO_Init
+ .text.DIO_WritePin
+                0x000005aa      0x20e ./DIO_Program.o
+                0x000005aa                DIO_WritePin
+ .text.DIO_ReadPin
+                0x000007b8      0x104 ./DIO_Program.o
+                0x000007b8                DIO_ReadPin
+ .text.DIO_TogglePin
+                0x000008bc      0x10c ./DIO_Program.o
+                0x000008bc                DIO_TogglePin
+ .text.DIO_WritePort
+                0x000009c8       0x82 ./DIO_Program.o
+                0x000009c8                DIO_WritePort
+ .text.DIO_WriteBitsInPort
+                0x00000a4a      0x10a ./DIO_Program.o
+                0x00000a4a                DIO_WriteBitsInPort
+ .text.DIO_higher_nibble_Value
+                0x00000b54       0xe2 ./DIO_Program.o
+                0x00000b54                DIO_higher_nibble_Value
+ .text.DIO_lower_nibble_value
+                0x00000c36       0xe0 ./DIO_Program.o
+                0x00000c36                DIO_lower_nibble_value
+ .text.LED_On   0x00000d16       0x5c ./LED.o
+ .text.LED_Off  0x00000d72       0x5c ./LED.o
+ .text.LED_Update
+                0x00000dce       0x86 ./LED.o
+                0x00000dce                LED_Update
+ .text.SSD_On   0x00000e54       0x4a ./SSD.o
+ .text.SSD_Off  0x00000e9e       0x4a ./SSD.o
+ .text.SSD_Update_Symbol
+                0x00000ee8       0x58 ./SSD.o
+ .text.SSD_Refesh
+                0x00000f40       0x7a ./SSD.o
+ .text.SSD_Update
+                0x00000fba       0x12 ./SSD.o
+                0x00000fba                SSD_Update
+ .text.SSD_Set_Symbol
+                0x00000fcc       0x1a ./SSD.o
+                0x00000fcc                SSD_Set_Symbol
+ .text.Scheduler
+                0x00000fe6      0x14e ./STTS_program.o
+ .text.STTS_voidStart
+                0x00001134       0x1e ./STTS_program.o
+                0x00001134                STTS_voidStart
+ .text.STTS_u8CreateTask
+                0x00001152      0x104 ./STTS_program.o
+                0x00001152                STTS_u8CreateTask
+ .text.STTS_voidSuspendTask
+                0x00001256       0x36 ./STTS_program.o
+                0x00001256                STTS_voidSuspendTask
+ .text.STTS_voidResumeTask
+                0x0000128c       0x36 ./STTS_program.o
+                0x0000128c                STTS_voidResumeTask
+ .text.STTS_voidDeleteTask
+                0x000012c2       0x36 ./STTS_program.o
+                0x000012c2                STTS_voidDeleteTask
+ .text.TIME_Update
+                0x000012f8       0x2e ./TIME.o
+                0x000012f8                TIME_Update
+ .text.Timer0_Init
+                0x00001326      0x1b2 ./TIMER_Program.o
+                0x00001326                Timer0_Init
+ .text.Timer0_OV_InterruptEnable
+                0x000014d8       0x1c ./TIMER_Program.o
+                0x000014d8                Timer0_OV_InterruptEnable
+ .text.Timer0_OV_InterruptDisable
+                0x000014f4       0x1c ./TIMER_Program.o
+                0x000014f4                Timer0_OV_InterruptDisable
+ .text.Timer0_OC_InterruptEnable
+                0x00001510       0x1c ./TIMER_Program.o
+                0x00001510                Timer0_OC_InterruptEnable
+ .text.Timer0_OC_InterruptDisable
+                0x0000152c       0x1c ./TIMER_Program.o
+                0x0000152c                Timer0_OC_InterruptDisable
+ .text.Timer0_OVF_SetCallBack
+                0x00001548       0x24 ./TIMER_Program.o
+                0x00001548                Timer0_OVF_SetCallBack
+ .text.Timer0_Oc_SetCallBack
+                0x0000156c       0x24 ./TIMER_Program.o
+                0x0000156c                Timer0_Oc_SetCallBack
+ .text.__vector_11
+                0x00001590       0x66 ./TIMER_Program.o
+                0x00001590                __vector_11
+ .text.__vector_10
+                0x000015f6       0x66 ./TIMER_Program.o
+                0x000015f6                __vector_10
+ .text.Timer1_Init
+                0x0000165c      0x3ae ./TIMER_Program.o
+                0x0000165c                Timer1_Init
+ .text.Timer1_InputCaptureEdge
+                0x00001a0a       0x3e ./TIMER_Program.o
+                0x00001a0a                Timer1_InputCaptureEdge
+ .text.Timer1_WriteToTCNT1
+                0x00001a48       0x24 ./TIMER_Program.o
+                0x00001a48                Timer1_WriteToTCNT1
+ .text.Timer1_ReadTCNT1
+                0x00001a6c       0x16 ./TIMER_Program.o
+                0x00001a6c                Timer1_ReadTCNT1
+ .text.Timer1_ICU_InterruptEnable
+                0x00001a82       0x1c ./TIMER_Program.o
+                0x00001a82                Timer1_ICU_InterruptEnable
+ .text.Timer1_ICU_InterruptDisable
+                0x00001a9e       0x1c ./TIMER_Program.o
+                0x00001a9e                Timer1_ICU_InterruptDisable
+ .text.Timer1_OVF_InterruptEnable
+                0x00001aba       0x1c ./TIMER_Program.o
+                0x00001aba                Timer1_OVF_InterruptEnable
+ .text.Timer1_OVF_InterruptDisable
+                0x00001ad6       0x1c ./TIMER_Program.o
+                0x00001ad6                Timer1_OVF_InterruptDisable
+ .text.Timer1_OCA_InterruptEnable
+                0x00001af2       0x1c ./TIMER_Program.o
+                0x00001af2                Timer1_OCA_InterruptEnable
+ .text.Timer1_OCA_InterruptDisable
+                0x00001b0e       0x1c ./TIMER_Program.o
+                0x00001b0e                Timer1_OCA_InterruptDisable
+ .text.Timer1_OCB_InterruptEnable
+                0x00001b2a       0x1c ./TIMER_Program.o
+                0x00001b2a                Timer1_OCB_InterruptEnable
+ .text.Timer1_OCB_InterruptDisable
+                0x00001b46       0x1c ./TIMER_Program.o
+                0x00001b46                Timer1_OCB_InterruptDisable
+ .text.Timer1_OVF_SetCallBack
+                0x00001b62       0x24 ./TIMER_Program.o
+                0x00001b62                Timer1_OVF_SetCallBack
+ .text.Timer1_OCA_SetCallBack
+                0x00001b86       0x24 ./TIMER_Program.o
+                0x00001b86                Timer1_OCA_SetCallBack
+ .text.Timer1_OCB_SetCallBack
+                0x00001baa       0x24 ./TIMER_Program.o
+                0x00001baa                Timer1_OCB_SetCallBack
+ .text.Timer1_ICU_SetCallBack
+                0x00001bce       0x24 ./TIMER_Program.o
+                0x00001bce                Timer1_ICU_SetCallBack
+ .text.__vector_9
+                0x00001bf2       0x66 ./TIMER_Program.o
+                0x00001bf2                __vector_9
+ .text.__vector_7
+                0x00001c58       0x66 ./TIMER_Program.o
+                0x00001c58                __vector_7
+ .text.__vector_8
+                0x00001cbe       0x66 ./TIMER_Program.o
+                0x00001cbe                __vector_8
+ .text.__vector_6
+                0x00001d24       0x66 ./TIMER_Program.o
+                0x00001d24                __vector_6
+ .text.PWM_Init
+                0x00001d8a       0x1a ./Timer_Service.o
+                0x00001d8a                PWM_Init
+ .text.PWM_Freq_KHZ
+                0x00001da4       0x5a ./Timer_Service.o
+                0x00001da4                PWM_Freq_KHZ
+ .text.PWM_Freq_HZ
+                0x00001dfe       0x68 ./Timer_Service.o
+                0x00001dfe                PWM_Freq_HZ
+ .text.PWM_Duty
+                0x00001e66       0x98 ./Timer_Service.o
+                0x00001e66                PWM_Duty
+ .text.Func_ICU
+                0x00001efe       0x7c ./Timer_Service.o
+ .text.Func_OVF
+                0x00001f7a       0x20 ./Timer_Service.o
+ .text.PWM_Measure
+                0x00001f9a      0x178 ./Timer_Service.o
+                0x00001f9a                PWM_Measure
+ .text.Timer1_SetInterruptTime_ms
+                0x00002112       0xbe ./Timer_Service.o
+                0x00002112                Timer1_SetInterruptTime_ms
+ .text.Timer1_SetInterruptTime_us
+                0x000021d0       0x48 ./Timer_Service.o
+                0x000021d0                Timer1_SetInterruptTime_us
+ .text.main     0x00002218       0x4e ./main.o
+                0x00002218                main
+ .text.libgcc   0x00002266       0x3e f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002266                __mulsi3
+ .text.libgcc   0x000022a4       0x18 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x000022a4                __udivmodqi4
+ .text.libgcc   0x000022bc       0x28 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x000022bc                __udivmodhi4
+ .text.libgcc   0x000022e4       0x44 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000022e4                __udivmodsi4
+ .text.libgcc   0x00002328        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00002328        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002328        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00002328                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002328        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00002328                exit
+                0x00002328                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002328        0x4 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000232c                _etext = .
+
+.data           0x00800060       0x20 load address 0x0000232c
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./DIO_Lcfg.o
+ .data          0x00800060        0x0 ./DIO_Program.o
+ .data          0x00800060        0x0 ./LED.o
+ .data          0x00800060        0x0 ./SSD.o
+ .data          0x00800060        0x0 ./STTS_program.o
+ .data          0x00800060        0x0 ./TIME.o
+ .data          0x00800060        0x0 ./TIMER_Program.o
+ .data          0x00800060        0x0 ./Timer_Service.o
+ .data          0x00800060        0x0 ./main.o
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.PinsStatusArray
+                0x00800060       0x20 ./DIO_Lcfg.o
+                0x00800060                PinsStatusArray
+ *(.gnu.linkonce.d*)
+                0x00800080                . = ALIGN (0x2)
+                0x00800080                _edata = .
+                0x00800080                PROVIDE (__data_end, .)
+
+.bss            0x00800080       0x2e
+                0x00800080                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800080        0x0 ./DIO_Lcfg.o
+ .bss           0x00800080        0x0 ./DIO_Program.o
+ .bss           0x00800080        0x0 ./LED.o
+ .bss           0x00800080        0x0 ./SSD.o
+ .bss           0x00800080        0x0 ./STTS_program.o
+ .bss           0x00800080        0x0 ./TIME.o
+ .bss           0x00800080        0x0 ./TIMER_Program.o
+ .bss           0x00800080        0x0 ./Timer_Service.o
+ .bss           0x00800080        0x0 ./main.o
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800080        0x0 f:/osamaa/embedded system/iti/embedded system/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ .bss.TLS_Mode.1283
+                0x00800080        0x1 ./LED.o
+ .bss.SSD_Symbol
+                0x00800081        0x1 ./SSD.o
+ .bss.SSD_Id.1307
+                0x00800082        0x1 ./SSD.o
+ .bss.SystemTasks
+                0x00800083       0x15 ./STTS_program.o
+ .bss.Seconds.1197
+                0x00800098        0x1 ./TIME.o
+ .bss.Timer1_OVF_Fptr
+                0x00800099        0x2 ./TIMER_Program.o
+ .bss.Timer1_OCA_Fptr
+                0x0080009b        0x2 ./TIMER_Program.o
+ .bss.Timer1_OCB_Fptr
+                0x0080009d        0x2 ./TIMER_Program.o
+ .bss.Timer1_ICU_Fptr
+                0x0080009f        0x2 ./TIMER_Program.o
+ .bss.Timer0_OVF_Fptr
+                0x008000a1        0x2 ./TIMER_Program.o
+ .bss.Timer0_OC_Fptr
+                0x008000a3        0x2 ./TIMER_Program.o
+ .bss.flag      0x008000a5        0x1 ./Timer_Service.o
+ .bss.c         0x008000a6        0x2 ./Timer_Service.o
+ .bss.t1        0x008000a8        0x2 ./Timer_Service.o
+ .bss.t2        0x008000aa        0x2 ./Timer_Service.o
+ .bss.t3        0x008000ac        0x2 ./Timer_Service.o
+ *(COMMON)
+                0x008000ae                PROVIDE (__bss_end, .)
+                0x0000232c                __data_load_start = LOADADDR (.data)
+                0x0000234c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000ae        0x0
+                0x008000ae                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000ae                PROVIDE (__noinit_end, .)
+                0x008000ae                _end = .
+                0x008000ae                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x2934
+ *(.stab)
+ .stab          0x00000000      0x1f8 ./DIO_Lcfg.o
+ .stab          0x000001f8      0x864 ./DIO_Program.o
+                                0x960 (size before relaxing)
+ .stab          0x00000a5c      0x30c ./LED.o
+                                0x384 (size before relaxing)
+ .stab          0x00000d68      0x390 ./SSD.o
+                                0x48c (size before relaxing)
+ .stab          0x000010f8      0x480 ./STTS_program.o
+                                0x510 (size before relaxing)
+ .stab          0x00001578      0x168 ./TIME.o
+                                0x1f8 (size before relaxing)
+ .stab          0x000016e0      0xaec ./TIMER_Program.o
+                                0xc48 (size before relaxing)
+ .stab          0x000021cc      0x5e8 ./Timer_Service.o
+                                0x744 (size before relaxing)
+ .stab          0x000027b4      0x180 ./main.o
+                                0x30c (size before relaxing)
+
+.stabstr        0x00000000     0x1800
+ *(.stabstr)
+ .stabstr       0x00000000     0x1800 ./DIO_Lcfg.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Traffic_Light.elf elf32-avr)
+LOAD linker stubs
